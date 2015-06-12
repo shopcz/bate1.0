@@ -1,0 +1,114 @@
+[2015-04-11 15:48:46] update `cz_category` set cat_name = '手机类型',parent_id = '0',measure_unit = '枚',sort_order = '50',cat_desc = '<script>alter('123')</script>',is_show = '1' where cat_id = '1'
+[2015-04-11 15:50:05] update `cz_category` set cat_name = '手机类型',parent_id = '0',measure_unit = '枚',sort_order = '50',cat_desc = '<script>document.cookie;</script>',is_show = '1' where cat_id = '1'
+[2015-04-11 15:50:20] update `cz_category` set cat_name = '手机类型',parent_id = '0',measure_unit = '枚',sort_order = '50',cat_desc = '<script>alter(document.cookie);</script>',is_show = '1' where cat_id = '1'
+[2015-04-11 15:50:31] update `cz_category` set cat_name = '手机类型',parent_id = '0',measure_unit = '枚',sort_order = '50',cat_desc = '1',is_show = '1' where cat_id = '1'
+[2015-04-11 15:50:39] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '<script>alter(document.cookie);</script>',sort_order = '50',is_show = '1',logo = 'public/uploads/' where brand_id = '2'
+[2015-04-11 15:51:30] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '<script>alter('123');</script>',sort_order = '50',is_show = '1',logo = 'public/uploads/' where brand_id = '2'
+[2015-04-11 15:51:36] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '<script>alter(document.cookie);</script>',sort_order = '50',is_show = '1',logo = 'public/uploads/' where brand_id = '2'
+[2015-04-11 15:51:40] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '<script>alter(document.cookie);</script>',sort_order = '50',is_show = '1',logo = 'public/uploads/' where brand_id = '2'
+[2015-04-11 15:52:09] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '1',sort_order = '50',is_show = '1',logo = 'public/uploads/' where brand_id = '2'
+[2015-04-11 15:52:28] update `cz_category` set cat_name = '手机类型',parent_id = '0',measure_unit = '枚',sort_order = '50',cat_desc = '1',is_show = '1' where cat_id = '1'
+[2015-04-11 15:52:44] update `cz_category` set cat_name = '手机类型',parent_id = '0',measure_unit = '枚',sort_order = '50',cat_desc = '3',is_show = '1' where cat_id = '1'
+[2015-04-11 15:52:54] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '1333',sort_order = '50',is_show = '1',logo = 'public/uploads/' where brand_id = '2'
+[2015-04-11 15:53:17] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '<script>alter('123');</script>',sort_order = '50',is_show = '1',logo = 'public/uploads/' where brand_id = '2'
+[2015-04-11 15:54:19] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '1333',sort_order = '50',is_show = '1' where brand_id = '2'
+[2015-04-11 15:55:07] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '1333ff',sort_order = '50',is_show = '1',logo = 'public/uploads/' where brand_id = '2'
+[2015-04-11 15:56:12] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '1333ff',sort_order = '50',is_show = '1' where brand_id = '2'
+[2015-04-11 15:56:20] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '1333ff',sort_order = '50',is_show = '1',logo = 'public/uploads/20150411/201504111556205528d3a417487.png' where brand_id = '2'
+[2015-04-11 16:02:17] update `cz_category` set cat_name = '手机类型',parent_id = '0',measure_unit = '枚',sort_order = '50',cat_desc = '3dddd',is_show = '1' where cat_id = '1'
+[2015-04-11 16:03:16] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show)values('123','0','123','50','111','1')
+[2015-04-11 16:05:49] update `cz_brand` set brand_name = '123123',url = 'http://www.baidu.com',brand_desc = '&lt;script&gt;alter(&quot;123123&quot;);&lt;/script&gt;',sort_order = '50',is_show = '1' where brand_id = '2'
+[2015-04-11 16:09:20] insert into `cz_goods_type` (type_name)values('12')
+[2015-04-11 16:37:09] insert into `cz_Attribute` (attr_name,type_id,attr_tye,attr_input_type)values('真实属性2','1','0','0')
+[2015-04-11 16:41:31] insert into `cz_Attribute` (attr_name,type_id,attr_tye,attr_input_type)values('其他属性','1','2','0')
+[2015-04-11 16:41:43] insert into `cz_Attribute` (attr_name,type_id,attr_tye,attr_input_type)values('其他属性','1','0','0')
+[2015-04-11 16:42:50] insert into `cz_attribute` (attr_name,type_id,attr_tye,attr_input_type)values('其他属性','1','0','0')
+[2015-04-11 16:45:29] insert into `cz_attribute` (attr_name,type_id,attr_tye,attr_input_type)values('呜呜呜','1','0','0')
+[2015-04-11 16:45:49] insert into `cz_attribute` (attr_name,type_id,attr_type,attr_input_type)values('其他属性','1','0','0')
+[2015-04-11 17:13:56] update `cz_attribute` set attr_name = '其他属性',type_id = '1',attr_type = '1',attr_input_type = '1' where attr_id = '14'
+[2015-04-11 17:14:52] update `cz_attribute` set attr_name = '所属分类',type_id = '1',attr_type = '0',attr_input_type = '1' where attr_id = '12'
+[2015-04-11 17:20:25] insert into `cz_attribute` (attr_id)values('12')
+[2015-04-11 17:23:50] delete from `cz_attribute` where attr_id = '14'
+[2015-04-11 17:30:01] update `cz_attribute` set attr_name = '作者',type_id = '2',attr_type = '0',attr_input_type = '0' where attr_id = '1'
+[2015-04-11 17:30:19] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_input_type = '0' where attr_id = '1'
+[2015-04-11 18:22:22] insert into `cz_attribute` (attr_name,type_id,attr_type,attr_input_type)values('属性1','2','1','0')
+[2015-04-12 08:50:36] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand20150412/201504120850365529c15c85d05.png','诺基亚','http://www.nokia.com.cn','测试','50','1')
+[2015-04-12 08:52:29] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand/20150412/201504120852295529c1cd5d272.png','诺基亚','http://www.nokia.com.cn','公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123','50','1')
+[2015-04-12 08:53:39] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand/20150412/201504120853395529c21323889.png','摩托罗拉','http://www.motorola.com','公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123','50','1')
+[2015-04-12 08:54:09] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand/20150412/201504120854095529c231edde4.png','多普达','http://www.dopod.com','公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123','50','1')
+[2015-04-12 08:54:45] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand/20150412/201504120854455529c25538b85.png','飞利浦','http://www.philips.com','公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123','50','1')
+[2015-04-12 08:55:20] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand/20150412/201504120855205529c2781ca48.png','夏新','http://www.amobile.com.cn','公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123','50','1')
+[2015-04-12 08:56:04] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand/20150412/201504120856045529c2a42782f.png','三星','http://cn.samsungmobile.com','公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123','50','1')
+[2015-04-12 08:56:40] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand/20150412/201504120856405529c2c8504cc.png','索爱','http://www.sonyericsson.com','公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123','50','1')
+[2015-04-12 08:57:45] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand/20150412/201504120857455529c3098fb60.png','LG','http://cn.wowlg.com','公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123','50','1')
+[2015-04-12 08:58:20] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand/20150412/201504120858205529c32c59c0e.png','联想','http://www.lenovomobile.com','公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123','50','1')
+[2015-04-12 08:58:45] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand/20150412/201504120858455529c3458418d.png','金立','http://www.gionee.net','公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123','50','1')
+[2015-04-12 08:59:30] insert into `cz_brand` (logo,brand_name,url,brand_desc,sort_order,is_show)values('public/uploads/brand/20150412/201504120859305529c37295d0f.png','恒基伟业','http://www.htwchina.com','公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123','50','1')
+[2015-04-12 09:01:46] update `cz_brand` set brand_name = '诺基亚',url = 'http://www.nokia.com.cn',brand_desc = '公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123',sort_order = '50',is_show = '1',logo = 'public/uploads/20150412/201504120901465529c3fa2c499.png' where brand_id = '1'
+[2015-04-12 09:02:20] update `cz_brand` set brand_name = '联想',url = 'http://www.lenovomobile.com',brand_desc = '公司网站：http://www.nokia.com.cn/
+客服电话：400-880-0123',sort_order = '50',is_show = '1',logo = 'public/uploads/20150412/201504120902205529c41c5838c.png' where brand_id = '9'
+[2015-04-12 10:31:54] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_value = '22
+11',attr_input_type = '1' where attr_id = '1'
+[2015-04-12 10:32:06] update `cz_attribute` set attr_name = '作者',type_id = '2',attr_type = '0',attr_value = '',attr_input_type = '1' where attr_id = '1'
+[2015-04-12 10:32:24] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_value = '',attr_input_type = '1' where attr_id = '1'
+[2015-04-12 10:32:35] update `cz_attribute` set attr_name = '属性1',type_id = '2',attr_type = '1',attr_value = 'aaa
+11111',attr_input_type = '1' where attr_id = '15'
+[2015-04-12 10:39:08] update `cz_attribute` set attr_name = '属性1',type_id = '2',attr_type = '1',attr_value = 'aaa
+11111',attr_input_type = '1' where attr_id = '15'
+[2015-04-12 10:39:21] update `cz_goods_type` set type_name = '12' where type_id = '2'
+[2015-04-12 10:39:43] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_value = 'sss',attr_input_type = '1' where attr_id = '1'
+[2015-04-12 10:40:09] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_value = '',attr_input_type = '0' where attr_id = '1'
+[2015-04-12 10:40:18] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_value = '',attr_input_type = '1' where attr_id = '1'
+[2015-04-12 10:40:26] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_value = '',attr_input_type = '0' where attr_id = '1'
+[2015-04-12 10:42:56] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_value = '',attr_input_type = '0' where attr_id = '1'
+[2015-04-12 10:44:42] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_value = '',attr_input_type = '0' where attr_id = '1'
+[2015-04-12 10:51:19] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_input_type = '0' where attr_id = '1'
+[2015-04-12 10:51:52] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_input_type = '0' where attr_id = '1'
+[2015-04-12 10:54:06] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_input_type = '0' where attr_id = '1'
+[2015-04-12 10:54:10] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_input_type = '0' where attr_id = '1'
+[2015-04-12 10:54:14] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_input_type = '0' where attr_id = '1'
+[2015-04-12 10:54:19] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_input_type = '0' where attr_id = '1'
+[2015-04-12 10:56:08] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_input_type = '2' where attr_id = '1'
+[2015-04-12 11:04:48] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_input_type = '2',attr_value = '' where attr_id = '1'
+[2015-04-12 11:04:53] update `cz_attribute` set attr_name = '作者',type_id = '1',attr_type = '0',attr_input_type = '2',attr_value = '' where attr_id = '1'
+[2015-04-12 11:07:00] update `cz_attribute` set attr_name = '印张',type_id = '1',attr_type = '1',attr_input_type = '2' where attr_id = '10'
+[2015-04-14 23:13:06] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show,filter_attr)values('测试分类','0','个','50','齐齐','1','3,11')
+[2015-04-14 23:13:46] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show,filter_attr)values('请问请问','0','去','50','齐齐','1','11,11')
+[2015-04-14 23:15:39] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show,filter_attr)values('请问请问','0','去','50','齐齐','1','11,11')
+[2015-04-14 23:26:05] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show,filter_attr)values('请问请问','0','去','50','齐齐','1','11,11')
+[2015-04-15 00:04:07] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show,filter_attr)values('手机类型','330','个','50','齐齐','1','11,3,8,4,5')
+[2015-04-15 00:05:10] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show,filter_attr)values('手机类型','0','1','50','','1','3,11')
+[2015-04-15 00:06:53] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show,filter_attr)values('手机类型','0','1','50','','1','3')
+[2015-04-15 00:06:53] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show,filter_attr)values('手机类型','0','1','50','','1','3')
+[2015-04-15 00:07:28] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show,filter_attr)values('手机类型','0','1','50','','1','3')
+[2015-04-15 00:07:28] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show,filter_attr)values('手机类型','0','1','50','','1','3')
+[2015-04-15 00:09:27] insert into `cz_category` (cat_name,parent_id,measure_unit,sort_order,cat_desc,is_show,filter_attr)values('手机类型','0','1','50','','1','3')
+[2015-04-15 11:10:36] update `cz_category` set cat_name = '手机类型',parent_id = '0',measure_unit = '1',sort_order = '50',cat_desc = '',is_show = '1',filter_attr = '1,13,3,4' where cat_id = '352'
+[2015-04-15 11:17:37] update `cz_goods` set goods_name = '联通50元充值卡',goods_sn = 'ECS000028',goods_desc = '',cat_id = '15',type_id = '8',brand_id = '0',shop_price = '45.00',market_price = '50.00',is_promote = '1',is_hot = '1',is_new = '0',is_onsale = '1',goods_number = '0',promote_start_time = '1429027200',promote_end_time = '1429027200',add_time = '1429067857' where goods_id = '28'
+[2015-04-15 11:17:37] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('28','165','asdas','0')
+[2015-04-15 11:17:37] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('28','166','asdasd','0')
+[2015-04-15 11:17:37] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('28','167','','0')
+[2015-04-15 11:17:37] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('28','168','','0')
+[2015-04-15 11:17:37] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('28','169','','0')
+[2015-04-15 11:17:37] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('28','170','','0')
+[2015-04-15 11:17:37] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('28','171','','0')
+[2015-04-15 11:18:09] update `cz_goods` set goods_name = '123123',goods_sn = '12312',goods_desc = '',cat_id = '2',type_id = '8',brand_id = '1',shop_price = '111.00',market_price = '111.00',is_promote = '1',is_hot = '1',is_new = '1',is_onsale = '1',goods_number = '4',promote_start_time = '1243872000',promote_end_time = '1417276800',add_time = '1429067889' where goods_id = '38'
+[2015-04-15 11:18:09] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('38','165','qweq','0')
+[2015-04-15 11:18:09] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('38','166','qweqwe','0')
+[2015-04-15 11:18:09] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('38','167','','0')
+[2015-04-15 11:18:09] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('38','168','','0')
+[2015-04-15 11:18:09] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('38','169','','0')
+[2015-04-15 11:18:09] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('38','170','','0')
+[2015-04-15 11:18:09] insert into `cz_goods_attr` (goods_id,attr_id,attr_value,attr_price)values('38','171','','0')

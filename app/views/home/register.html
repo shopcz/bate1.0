@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<title>用户登录</title>
+	<link rel="stylesheet" href="{#$smarty.const.RESOURCE_PATH#}css/base.css" />
+	<link rel="stylesheet" href="{#$smarty.const.RESOURCE_PATH#}css/global.css" />
+	<link rel="stylesheet" href="{#$smarty.const.RESOURCE_PATH#}css/login-register.css" />
+	<script language="javascript" src="{#$smarty.const.RESOURCE_PATH#}js/jquery.js"></script>
+</head>
+<body>
+	<div class="header wrap1000">
+		<a href=""><img src="{#$smarty.const.RESOURCE_PATH#}images/logo.png" alt="" /></a>
+	</div>
+	
+	<div class="main">
+		<div class="login-form fr">
+			<div class="form-hd">
+				<h3>用户注册</h3>
+				<p align="center" id="message" style="display:none;"></p>
+			</div>
+			<div class="form-bd">
+				<form action="index.php?p=home&c=login&a=register" id="register_form" method="POST">
+
+					<dl>
+						<dt>用户名</dt>
+						<dd><input type="text" name="member_name" id="member_name" value="" class="text in" /></dd>
+					
+
+					</dl>
+					<dl>
+						<dt>密码</dt>
+						<dd><input type="password" name="member_pass" id="member_pass" value="" class="text in"/></dd>
+					
+					</dl>
+					<dl>
+						<dt>确认密码</dt>
+						<dd><input type="password" name="re_member_pass" id="re_member_pass" value="" class="text in"/></dd>
+						
+					</dl>
+					<dl>
+						<dt>邮箱</dt>
+						<dd><input type="text" name="email" id="email" value="" class="text in"/>
+				
+							<input type="hidden" name="act" id="act" value="register">
+						</dd>
+					</dl>
+					<dl>
+						<dt>验证码</dt>
+						<dd><input type="text" name="code" id="code" class="text" size="10" style="width:58px;"> <img src="index.php?p=home&c=login&a=captcha" alt="" align="absmiddle" style="position:relative;top:-2px;"/> <a href="" style="color:#999;">看不清，换一张</a></dd>
+					</dl>
+					<dl>
+						<dt>&nbsp;</dt>
+						<dd><input type="submit" value="立即注册" id="register" class="submit"/> <!-- <input type= "checkbox" checked="checked"/>阅读并同意<a href="" class="forget">服务协议</a> --></dd>
+					</dl>
+				</form>
+				
+			</div>
+			<div class="form-ft">
+			
+			</div>		
+		</div>
+		
+		<div class="login-form-left fl">
+			<dl class="func clearfix">
+				<dt>注册之后您可以</dt>
+				<dd class="ico05"><i></i>购买商品支付订单</dd>
+				<dd class="ico01"><i></i>申请开店销售商品</dd>
+				<dd class="ico03"><i></i>空间好友推送分享</dd>
+				<dd class="ico02"><i></i>收藏商品关注店铺</dd>
+				<dd class="ico06"><i></i>商品资讯服务评价</dd>
+				<dd class="ico04"><i></i>安全交易诚信无忧</dd>
+			</dl>
+			
+			<div class="if">
+				<h2>如果您是本站用户</h2>
+				<p>我已经注册过账号，立即 <a href="index.php?p=home&c=login&a=register" class="register">登录</a> 或是 <a href="" class="findpwd">找回密码？</a></p>
+			</div>
+		</div>
+	</div>
+	
+	<div class="footer clear wrap1000">
+		<p> <a href="">首页</a> | <a href="">招聘英才</a> | <a href="">广告合作</a> | <a href="">关于ShopCZ</a> | <a href="">联系我们</a></p>
+		<p>Copyright 2004-2013 itcast Inc.,All rights reserved.</p>
+	</div>
+	
+<script language="javascript">
+{#literal#}
+
+$(document).ready(function(){
+
+	$("#register").click(function(){
+
+		var issubmit = true;
+		var i_index = 0;
+		$('#register_form').find('.in').each(function(i)
+		{
+			if($.trim($(this).val()).length == 0)
+			{
+				$(this).css('border','3px #3DA4C7 solid');
+				$("#message").css('display','block').html("<font color=red>表单内容不为空</font>");
+				issubmit =false;
+				if(i_index == 0) i_index =i;
+			}
+		});
+		if(!issubmit)
+		{
+			$("#register_form").find('.in').eq(i_index).focus();
+			return false;
+		}
+
+		$("#register").attr("disabled",true).val('正在注册..');
+
+		$.post($("#register_form").attr("action"),{member_name:$("#member_name").val(),member_pass:$("#member_pass").val(),re_member_pass:$("#re_member_pass").val(),email:$("#email").val(),code:$("#code").val(),act:"register"},function(data){
+
+			if(data.error){
+				$("#message").css('display','block').html("<font color=red>"+data.msg+"</font>");
+				$("#register").attr("disabled",false).val('注册');
+			}else{
+				window.location.href='index.php?p=home&c=member&a=index';
+			}
+
+		});
+
+			
+		});
+	});
+{#/literal#}
+</script>
+</body>
+</html>

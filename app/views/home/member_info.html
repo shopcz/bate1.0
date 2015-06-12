@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>修改个人资料</title>
+	<link rel="stylesheet" href="{#$smarty.const.RESOURCE_PATH#}css/base.css" type="text/css" />
+	<link rel="stylesheet" href="{#$smarty.const.RESOURCE_PATH#}css/shop_common.css" type="text/css" />
+	<link rel="stylesheet" href="{#$smarty.const.RESOURCE_PATH#}css/shop_header.css" type="text/css" />
+	<link rel="stylesheet" href="{#$smarty.const.RESOURCE_PATH#}css/shop_manager.css" type="text/css" />
+	<link rel="stylesheet" href="{#$smarty.const.RESOURCE_PATH#}css/shop_form.css" type="text/css" />
+    <script type="text/javascript" src="{#$smarty.const.RESOURCE_PATH#}js/jquery.js" ></script>
+    <script type="text/javascript" src="{#$smarty.const.RESOURCE_PATH#}js/topNav.js" ></script>
+</head>
+<body>
+		<!-- Header  -wll-2013/03/24 -->
+	{#include file="header.html"#}
+
+	
+	<div class="clear"></div>
+	<!-- 面包屑 注意首页没有 -->
+	<div class="shop_hd_breadcrumb">
+		<strong>当前位置：</strong>
+		<span>
+			<a href="">首页</a>&nbsp;›&nbsp;
+			<a href="">我的商城</a>&nbsp;›&nbsp;
+			<a href="">已买到商品</a>
+		</span>
+	</div>
+	<div class="clear"></div>
+	<!-- 面包屑 End -->
+
+	<!-- Header End -->	
+
+	<!-- 我的个人中心 -->
+	<div class="shop_member_bd clearfix">
+		<!-- 左边导航 -->
+		<div class="shop_member_bd_left clearfix">
+			
+			<div class="shop_member_bd_left_pic">
+				<a href="javascript:void(0);"><img src="{#$smarty.const.RESOURCE_PATH#}images/avatar.png" /></a>
+			</div>
+			<div class="clear"></div>
+
+			<dl>
+				<dt>我的交易</dt>
+				<dd><span><a href="">已购买商品</a></span></dd>
+				<dd><span><a href="">我的收藏</a></span></dd>
+				<dd><span><a href="">评价管理</a></span></dd>
+			</dl>
+
+			<dl>
+				<dt>我的账户</dt>
+				<dd><span><a href="index.php?p=home&c=member&a=index">个人资料</a></span></dd>
+				<dd><span><a href="index.php?p=home&c=member&a=editpass">密码修改</a></span></dd>
+				<dd><span><a href="index.php?p=home&c=member&a=address">收货地址</a></span></dd>
+			</dl>
+
+		</div>
+		<!-- 左边导航 End -->
+		
+		<!-- 右边购物列表 -->
+		<div class="shop_member_bd_right clearfix">
+			
+			<div class="shop_meber_bd_good_lists clearfix">
+				<div class="title"><h3>基本信息</h3></div>
+				<div class="clear"></div>
+				<dic class="shop_home_form">
+					<form action="index.php?p=home&c=member&a=update" name="" class="shop_form" method="post">
+						<ul>
+							<li><label>用户名称：</label>{#$member_info.member_name#}</li>
+							<li><label>电子邮件：</label>{#$member_info.email#}</li>
+							<li><label>真实姓名：</label><input type="text" value="{#$member_info.realname#}" class="truename form-text" name="realname"/></li>
+							<li><label>性别:</label>
+								<input type="radio" class="mr5" name="sex" value="0" {#if $member_info.sex eq 0#} checked="true" {#/if#}/>保密
+								<input type="radio" class="ml10 mr5" name="sex" value="1" {#if $member_info.sex eq 1#} checked="true" {#/if#}//>男
+								<input type="radio" class="ml10 mr5" name="sex" value="2" {#if $member_info.sex eq 2#} checked="true" {#/if#}//>女
+							</li>
+							<li class="bn"><label>&nbsp;</label><input type="submit" class="form-submit" value="保存修改" /></li>
+						</ul>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- 右边购物列表 End -->
+
+	</div>
+	<!-- 我的个人中心 End -->
+
+	<!-- Footer - wll - 2013/3/24 -->
+{#include file="footer.html"#}
+	<!-- Footer End -->
+</body>
+</html>
